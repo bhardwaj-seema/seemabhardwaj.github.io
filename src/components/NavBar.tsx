@@ -31,7 +31,8 @@ export default function Navbar() {
 
         <div className="flex items-center gap-3">
           <a
-            href="mailto:seema@example.com"
+            href="/Seema_Bhardwaj.pdf"
+              download="Seema_Bhardwaj_Resume.pdf"
             className="inline-flex items-center gap-2 rounded-xl border border-cyan-400/50 bg-cyan-400/10 px-4 py-2 text-sm font-semibold text-cyan-100 transition hover:border-cyan-300 hover:bg-cyan-400/20"
           >
             <FiDownload className="text-base" />
