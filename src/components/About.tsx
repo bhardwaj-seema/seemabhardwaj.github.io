@@ -42,8 +42,8 @@ export default function AboutSection() {
 
             <p className="max-w-2xl text-base leading-8 text-slate-300 sm:text-lg">
               I design and develop full-stack applications using Laravel, PHP, Node.js,
-              MySQL, Redis, and cloud deployment patterns. My work focuses on stability,
-              speed, and user-friendly experiences.
+              React, MySQL, Redis, and cloud deployment patterns. My work spans backend architecture,
+              API design, and polished user experiences.
             </p>
           </div>
 

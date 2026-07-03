@@ -11,15 +11,15 @@ const stats = [
 const featuredProjects = [
   {
     name: "SaaS Admin Portal",
-    description: "Built secure admin tooling and reporting dashboards with Laravel and Vue.",
+    description: "Built secure admin tooling, dashboards, and reporting workflows with Laravel and React.",
   },
   {
     name: "API-first Marketplace",
-    description: "Developed REST APIs, authentication flows, and payment integrations.",
+    description: "Developed REST APIs, authentication flows, and payments with Node.js and React.",
   },
   {
     name: "Realtime Analytics",
-    description: "Created a Redis-backed event pipeline for fast, live data updates.",
+    description: "Created a Redis-backed event pipeline for fast live updates and frontend dashboards.",
   },
 ];
 

@@ -11,14 +11,14 @@ export default function Navbar() {
           <span className="grid h-11 w-11 place-items-center rounded-2xl border border-cyan-400/30 bg-white/5 text-lg font-black text-white shadow-[0_0_30px_rgba(6,182,212,0.15)]">
             SB
           </span>
-          <div className="hidden flex-col leading-tight sm:flex">
+          {/* <div className="hidden flex-col leading-tight sm:flex">
             <span className="text-xs uppercase tracking-[0.3em] text-cyan-200/70">
               Portfolio
             </span>
             <span className="text-sm font-semibold text-white">
               Seema Bhardwaj
             </span>
-          </div>
+          </div> */}
         </a>
 
         <ul className="hidden items-center gap-8 text-sm text-white/70 lg:flex">

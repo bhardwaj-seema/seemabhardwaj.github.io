@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { FiArrowDown, FiDownload, FiMail, FiBriefcase, FiLayers } from "react-icons/fi";
-import { SiLaravel, SiMysql, SiNodedotjs, SiRedis } from "react-icons/si";
+import { SiLaravel, SiMysql, SiNodedotjs, SiReact, SiRedis } from "react-icons/si";
 import AboutSection from "./About";
 import SkillsSection from "./Skills";
 import ProjectsSection from "./Projects";
@@ -42,7 +42,7 @@ export default function Hero() {
           </h1>
 
           <p className="mt-4 text-2xl font-medium text-white/90 sm:text-3xl">
-            Software Developer
+           Full Stack Software Developer
           </p>
 
           <p className="mt-6 flex flex-wrap gap-x-3 gap-y-2 text-sm font-semibold uppercase tracking-[0.35em] text-slate-300/80 sm:text-base">
@@ -52,6 +52,8 @@ export default function Hero() {
             <span>•</span>
             <span className="text-sky-200">Node.js</span>
             <span>•</span>
+            <span className="text-sky-400">React</span>
+            <span>•</span>
             <span className="text-emerald-200">MySQL</span>
             <span>•</span>
             <span className="text-amber-200">AWS</span>
@@ -60,8 +62,8 @@ export default function Hero() {
           </p>
 
           <p className="mt-6 max-w-xl text-base leading-8 text-slate-300 sm:text-lg">
-            Passionate software developer building scalable web applications, RESTful APIs,
-            and polished interfaces with modern technologies and strong attention to detail.
+            Passionate full-stack developer building robust backend systems, responsive frontends,
+            and cloud-ready platforms with modern tools and strong attention to detail.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">

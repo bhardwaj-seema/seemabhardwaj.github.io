@@ -1,11 +1,12 @@
 import { motion } from "framer-motion";
-import { SiLaravel, SiMysql, SiNodedotjs, SiPhp, SiRedis, SiTailwindcss, SiJavascript, SiGit, SiFirebase, SiTypescript, SiMongodb } from "react-icons/si";
+import { SiLaravel, SiMysql, SiNodedotjs, SiPhp, SiRedis, SiTailwindcss, SiReact, SiJavascript, SiGit, SiFirebase, SiTypescript, SiMongodb } from "react-icons/si";
 import { FiCode, FiLayers, FiBriefcase } from "react-icons/fi";
 
 const skills = [
   { label: "Laravel", icon: SiLaravel, tone: "from-rose-500/20 to-rose-400/5 text-rose-200" },
   { label: "PHP", icon: SiPhp, tone: "from-violet-500/20 to-violet-400/5 text-violet-200" },
   { label: "Node.js", icon: SiNodedotjs, tone: "from-lime-500/20 to-lime-400/5 text-lime-200" },
+  { label: "React", icon: SiReact, tone: "from-sky-500/20 to-sky-400/5 text-sky-200" },
   { label: "MySQL", icon: SiMysql, tone: "from-cyan-500/20 to-cyan-400/5 text-cyan-200" },
   { label: "Redis", icon: SiRedis, tone: "from-red-500/20 to-red-400/5 text-red-200" },
   { label: "Tailwind CSS", icon: SiTailwindcss, tone: "from-sky-500/20 to-sky-400/5 text-sky-200" },
@@ -32,11 +33,11 @@ export default function SkillsSection() {
         <div className="mb-10 max-w-2xl">
           <p className="text-sm uppercase tracking-[0.3em] text-cyan-200/70">Skills</p>
           <h2 className="mt-4 text-4xl font-black text-white sm:text-5xl">
-            Modern technology stack for full-service web development.
+            Modern full-stack tooling for end-to-end web development.
           </h2>
           <p className="mt-5 text-base leading-8 text-slate-300 sm:text-lg">
-            A broad set of tools and platforms used to build performant applications,
-            backend services, and polished user interfaces.
+            A broad set of tools and platforms used to build responsive frontends,
+            scalable backends, and polished digital experiences.
           </p>
         </div>
 
